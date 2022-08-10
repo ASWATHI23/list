@@ -1,0 +1,10 @@
+first=[1,2,3,4,5]
+second=[6,7,8,9,10]
+print(first)
+print(second)
+third=first+second
+print(third)
+print("***************************************")
+first.extend(second)
+print(first)
+print(second)
